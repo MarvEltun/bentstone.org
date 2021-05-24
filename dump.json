@@ -1,0 +1,1975 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-05-23T23:05:35.353Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "[EN]Hero Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-05-23T23:05:46.907Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "[AZ]Hero Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-05-23T23:05:54.947Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "[RU]Hero Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-05-23T23:06:02.207Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "[TR]Hero Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-05-23T23:32:49.205Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Contact Informations",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-05-23T23:34:08.674Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Contact Informations",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Phone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-05-23T23:36:29.153Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Arkalys",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-05-23T23:44:30.977Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Adminion",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-05-23T23:44:35.398Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Adminion",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-05-23T23:44:43.926Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "world edit",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-05-23T23:59:19.661Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "rzrza",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-05-24T00:58:48.173Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Project 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-05-24T00:58:59.295Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Project 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-05-24T10:06:35.682Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "EN Project 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-05-24T10:07:13.016Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "EN Project 2",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-05-24T10:18:31.354Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "[AZ] Hero Section",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Button 1\", \"Button 2\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-05-24T10:18:38.549Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "[RU] Hero Section",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Button 1\", \"Button 2\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-05-24T10:18:46.546Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "[TR] Hero Section",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Button 1\", \"Button 2\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-05-24T10:20:31.132Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "[EN] Menu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-05-24T10:20:49.422Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "[RU] Menu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-05-24T10:21:03.346Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "[TR] Menu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-05-24T10:21:17.595Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "[AZ] Menu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-05-24T10:52:21.607Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "[EN] About Us Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-05-24T10:52:40.151Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "[RU] About Us Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-05-24T10:52:49.338Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "[AZ] About Us Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-05-24T10:52:59.896Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "[TR] About Us Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-05-24T10:57:07.174Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "[EN] Partners Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2021-05-24T10:57:14.669Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "[RU] Partners Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2021-05-24T10:57:29.785Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "[TR] Partners Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2021-05-24T10:57:39.394Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "4",
+        "object_repr": "[AZ] Partners Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2021-05-24T11:12:03.428Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "[EN] Project Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2021-05-24T11:12:11.965Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "[RU] Project Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2021-05-24T11:12:21.722Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "[TR] Project Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2021-05-24T11:12:28.171Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "[AZ] Project Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2021-05-24T11:12:41.561Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "[EN] Product Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2021-05-24T11:12:50.033Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "[AZ] Product Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2021-05-24T11:12:56.460Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "3",
+        "object_repr": "[TR] Product Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2021-05-24T11:13:10.376Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "4",
+        "object_repr": "[RU] Product Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2021-05-24T11:13:31.587Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "[EN] Contact Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2021-05-24T11:13:41.390Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "[AZ] Contact Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2021-05-24T11:13:51.783Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "[RU] Contact Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2021-05-24T11:14:06.778Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "4",
+        "object_repr": "[TR] Contact Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2021-05-24T11:24:28.354Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "[EN] Footer Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2021-05-24T11:24:37.519Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "2",
+        "object_repr": "[AZ] Footer Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2021-05-24T11:24:46.207Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "3",
+        "object_repr": "[RU] Footer Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2021-05-24T11:24:54.060Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "4",
+        "object_repr": "[TR] Footer Section",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2021-05-24T11:42:32.281Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Test Product 1 (EN)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2021-05-24T11:43:39.215Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Test Product 1 (EN)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add hero",
+        "content_type": 7,
+        "codename": "add_hero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change hero",
+        "content_type": 7,
+        "codename": "change_hero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete hero",
+        "content_type": 7,
+        "codename": "delete_hero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view hero",
+        "content_type": 7,
+        "codename": "view_hero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add hero text",
+        "content_type": 7,
+        "codename": "add_herotext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change hero text",
+        "content_type": 7,
+        "codename": "change_herotext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete hero text",
+        "content_type": 7,
+        "codename": "delete_herotext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view hero text",
+        "content_type": 7,
+        "codename": "view_herotext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add contact information",
+        "content_type": 8,
+        "codename": "add_contactinformation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change contact information",
+        "content_type": 8,
+        "codename": "change_contactinformation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete contact information",
+        "content_type": 8,
+        "codename": "delete_contactinformation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view contact information",
+        "content_type": 8,
+        "codename": "view_contactinformation"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add partner",
+        "content_type": 9,
+        "codename": "add_partner"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change partner",
+        "content_type": 9,
+        "codename": "change_partner"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete partner",
+        "content_type": 9,
+        "codename": "delete_partner"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view partner",
+        "content_type": 9,
+        "codename": "view_partner"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add project",
+        "content_type": 10,
+        "codename": "add_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change project",
+        "content_type": 10,
+        "codename": "change_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete project",
+        "content_type": 10,
+        "codename": "delete_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view project",
+        "content_type": 10,
+        "codename": "view_project"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add menu",
+        "content_type": 11,
+        "codename": "add_menu"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change menu",
+        "content_type": 11,
+        "codename": "change_menu"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete menu",
+        "content_type": 11,
+        "codename": "delete_menu"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view menu",
+        "content_type": 11,
+        "codename": "view_menu"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add about us text",
+        "content_type": 12,
+        "codename": "add_aboutustext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change about us text",
+        "content_type": 12,
+        "codename": "change_aboutustext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete about us text",
+        "content_type": 12,
+        "codename": "delete_aboutustext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view about us text",
+        "content_type": 12,
+        "codename": "view_aboutustext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add partner text",
+        "content_type": 13,
+        "codename": "add_partnertext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change partner text",
+        "content_type": 13,
+        "codename": "change_partnertext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete partner text",
+        "content_type": 13,
+        "codename": "delete_partnertext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view partner text",
+        "content_type": 13,
+        "codename": "view_partnertext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add contact text",
+        "content_type": 14,
+        "codename": "add_contacttext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change contact text",
+        "content_type": 14,
+        "codename": "change_contacttext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete contact text",
+        "content_type": 14,
+        "codename": "delete_contacttext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view contact text",
+        "content_type": 14,
+        "codename": "view_contacttext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add product text",
+        "content_type": 15,
+        "codename": "add_producttext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change product text",
+        "content_type": 15,
+        "codename": "change_producttext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete product text",
+        "content_type": 15,
+        "codename": "delete_producttext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view product text",
+        "content_type": 15,
+        "codename": "view_producttext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add project text",
+        "content_type": 16,
+        "codename": "add_projecttext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change project text",
+        "content_type": 16,
+        "codename": "change_projecttext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete project text",
+        "content_type": 16,
+        "codename": "delete_projecttext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view project text",
+        "content_type": 16,
+        "codename": "view_projecttext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add footer text",
+        "content_type": 17,
+        "codename": "add_footertext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change footer text",
+        "content_type": 17,
+        "codename": "change_footertext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete footer text",
+        "content_type": 17,
+        "codename": "delete_footertext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view footer text",
+        "content_type": 17,
+        "codename": "view_footertext"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add product",
+        "content_type": 18,
+        "codename": "add_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change product",
+        "content_type": 18,
+        "codename": "change_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete product",
+        "content_type": 18,
+        "codename": "delete_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view product",
+        "content_type": 18,
+        "codename": "view_product"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$fcnjBzOvU11J$vbZoFNjLDJHV6+KN4T/JyOWJrR8OvhmL/NxCmpS5vlU=",
+        "last_login": "2021-05-23T23:02:10.768Z",
+        "is_superuser": true,
+        "username": "Yukinox",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-05-23T22:22:06.651Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "Main",
+        "model": "herotext"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "Main",
+        "model": "contactinformation"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "Main",
+        "model": "partner"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "Main",
+        "model": "project"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "Main",
+        "model": "menu"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "Main",
+        "model": "aboutustext"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "Main",
+        "model": "partnertext"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "Main",
+        "model": "contacttext"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "Main",
+        "model": "producttext"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "Main",
+        "model": "projecttext"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "Main",
+        "model": "footertext"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "Main",
+        "model": "product"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "63cuwg92blfj8ojaj87csyfpm0rkdlzk",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSE8ClKX7vsNZGYYpGogKe3K-O_apAvd3nPOfYkI21ri1nmJcxIXocXpd0OgB9cdpDvUW5PU6rrMKHdFHrTLqSV-Xg_376BAL9961ByyM5ghGQBLCg1bMJ45g_aknc9sUx7AICHyeVAhgPJMyY3EIYj3BxyzOXU:1lkx6o:fZQngjIMQtaajtPwx06lNua8Wa-UQ3-E4pDdn9e2e_o",
+        "expire_date": "2021-06-06T23:02:10.775Z"
+    }
+},
+{
+    "model": "Main.herotext",
+    "pk": 1,
+    "fields": {
+        "text_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "text_2": "Lorem ipsum dolor sit amet",
+        "text_3": "English language for Benstone",
+        "button_1": "Our products",
+        "button_2": "Get in touch",
+        "lang": "EN"
+    }
+},
+{
+    "model": "Main.herotext",
+    "pk": 2,
+    "fields": {
+        "text_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "text_2": "Lorem ipsum dolor sit amet",
+        "text_3": "AZ language for Benstone",
+        "button_1": "Our products (AZ)",
+        "button_2": "Get in touch (AZ)",
+        "lang": "AZ"
+    }
+},
+{
+    "model": "Main.herotext",
+    "pk": 3,
+    "fields": {
+        "text_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "text_2": "Lorem ipsum dolor sit amet",
+        "text_3": "RU language for Benstone",
+        "button_1": "Our products (RU)",
+        "button_2": "Get in touch (RU)",
+        "lang": "RU"
+    }
+},
+{
+    "model": "Main.herotext",
+    "pk": 4,
+    "fields": {
+        "text_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "text_2": "Lorem ipsum dolor sit amet",
+        "text_3": "TR language for Benstone",
+        "button_1": "Our products (TR)",
+        "button_2": "Get in touch (TR)",
+        "lang": "TR"
+    }
+},
+{
+    "model": "Main.menu",
+    "pk": 1,
+    "fields": {
+        "open_button": "Open",
+        "close_button": "Close",
+        "home_button": "Home",
+        "products_button": "Products",
+        "projects_button": "Projects",
+        "about_us_button": "About Us",
+        "contact_button": "Contact",
+        "lang": "EN"
+    }
+},
+{
+    "model": "Main.menu",
+    "pk": 2,
+    "fields": {
+        "open_button": "Open (RU)",
+        "close_button": "Close (RU)",
+        "home_button": "Home",
+        "products_button": "Products",
+        "projects_button": "Projects",
+        "about_us_button": "About Us",
+        "contact_button": "Contact",
+        "lang": "RU"
+    }
+},
+{
+    "model": "Main.menu",
+    "pk": 3,
+    "fields": {
+        "open_button": "Open (TR)",
+        "close_button": "Close (TR)",
+        "home_button": "Home",
+        "products_button": "Products",
+        "projects_button": "Projects",
+        "about_us_button": "About Us",
+        "contact_button": "Contact",
+        "lang": "TR"
+    }
+},
+{
+    "model": "Main.menu",
+    "pk": 4,
+    "fields": {
+        "open_button": "Open (AZ)",
+        "close_button": "Close (AZ)",
+        "home_button": "Home",
+        "products_button": "Products",
+        "projects_button": "Projects",
+        "about_us_button": "About Us",
+        "contact_button": "Contact",
+        "lang": "AZ"
+    }
+},
+{
+    "model": "Main.contactinformation",
+    "pk": 1,
+    "fields": {
+        "email": "hello@benstone.com",
+        "phone": "01 23 45 67 89"
+    }
+},
+{
+    "model": "Main.partner",
+    "pk": 1,
+    "fields": {
+        "name": "Arkalys",
+        "logo": "partners/logo-ark.png"
+    }
+},
+{
+    "model": "Main.partner",
+    "pk": 2,
+    "fields": {
+        "name": "Adminion",
+        "logo": "partners/logo-ark_r9OGRlW.png"
+    }
+},
+{
+    "model": "Main.partner",
+    "pk": 3,
+    "fields": {
+        "name": "Adminion",
+        "logo": "partners/logo-arkalys.webp"
+    }
+},
+{
+    "model": "Main.partner",
+    "pk": 4,
+    "fields": {
+        "name": "world edit",
+        "logo": "partners/logo-arkalys_53EHFeW.webp"
+    }
+},
+{
+    "model": "Main.partner",
+    "pk": 5,
+    "fields": {
+        "name": "rzrza",
+        "logo": "partners/7a3ec529632909.55fc107b84b8c.png"
+    }
+},
+{
+    "model": "Main.project",
+    "pk": 1,
+    "fields": {
+        "name": "EN Project 1",
+        "category": "English",
+        "description": "Project 1 description",
+        "name_az": "AZ Project 1",
+        "category_az": "AZ",
+        "description_az": "Project 1 description",
+        "name_ru": "RU Project 1",
+        "category_ru": "RU",
+        "description_ru": "Project 1 description",
+        "name_tr": "TR Project 1",
+        "category_tr": "TR",
+        "description_tr": "Project 1 description",
+        "image": "projects/HiRes-17-1024x615_k2LNADB.jpg"
+    }
+},
+{
+    "model": "Main.project",
+    "pk": 2,
+    "fields": {
+        "name": "EN Project 2",
+        "category": "English",
+        "description": "Project 2",
+        "name_az": "AZ Project 2",
+        "category_az": "AZ",
+        "description_az": "Project 2",
+        "name_ru": "RU Project 2",
+        "category_ru": "RU",
+        "description_ru": "Project 2",
+        "name_tr": "TR Project 2",
+        "category_tr": "TR",
+        "description_tr": "Project 2",
+        "image": "projects/HiRes-17-1024x615_yqFGhwq.jpg"
+    }
+},
+{
+    "model": "Main.aboutustext",
+    "pk": 1,
+    "fields": {
+        "title": "About Us",
+        "subtitle": "About Benstone (EN)",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis dolor massa. Donec iaculis varius erat, in imperdiet arcu venenatis in. Maecenas eu nulla urna. Duis aliquam ultricies suscipit. Nunc porta, odio vitae ultricies vehicula, arcu dolor elementum lacus, vel vulputate risus eros ac nisi. Quisque non enim sit amet erat vehicula pellentesque sit amet id leo.",
+        "lang": "EN"
+    }
+},
+{
+    "model": "Main.aboutustext",
+    "pk": 2,
+    "fields": {
+        "title": "About Us",
+        "subtitle": "About Benstone (RU)",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis dolor massa. Donec iaculis varius erat, in imperdiet arcu venenatis in. Maecenas eu nulla urna. Duis aliquam ultricies suscipit. Nunc porta, odio vitae ultricies vehicula, arcu dolor elementum lacus, vel vulputate risus eros ac nisi. Quisque non enim sit amet erat vehicula pellentesque sit amet id leo.",
+        "lang": "RU"
+    }
+},
+{
+    "model": "Main.aboutustext",
+    "pk": 3,
+    "fields": {
+        "title": "About Us",
+        "subtitle": "About Benstone (AZ)",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis dolor massa. Donec iaculis varius erat, in imperdiet arcu venenatis in. Maecenas eu nulla urna. Duis aliquam ultricies suscipit. Nunc porta, odio vitae ultricies vehicula, arcu dolor elementum lacus, vel vulputate risus eros ac nisi. Quisque non enim sit amet erat vehicula pellentesque sit amet id leo.",
+        "lang": "AZ"
+    }
+},
+{
+    "model": "Main.aboutustext",
+    "pk": 4,
+    "fields": {
+        "title": "About Us",
+        "subtitle": "About Benstone (TR)",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis dolor massa. Donec iaculis varius erat, in imperdiet arcu venenatis in. Maecenas eu nulla urna. Duis aliquam ultricies suscipit. Nunc porta, odio vitae ultricies vehicula, arcu dolor elementum lacus, vel vulputate risus eros ac nisi. Quisque non enim sit amet erat vehicula pellentesque sit amet id leo.",
+        "lang": "TR"
+    }
+},
+{
+    "model": "Main.partnertext",
+    "pk": 1,
+    "fields": {
+        "title": "Partners (EN)",
+        "subtitle": "Lorem ipsum dolor",
+        "lang": "EN"
+    }
+},
+{
+    "model": "Main.partnertext",
+    "pk": 2,
+    "fields": {
+        "title": "Partners (RU)",
+        "subtitle": "Lorem ipsum dolor",
+        "lang": "RU"
+    }
+},
+{
+    "model": "Main.partnertext",
+    "pk": 3,
+    "fields": {
+        "title": "Partners (TR)",
+        "subtitle": "Lorem ipsum dolor",
+        "lang": "TR"
+    }
+},
+{
+    "model": "Main.partnertext",
+    "pk": 4,
+    "fields": {
+        "title": "Partners (AZ)",
+        "subtitle": "Lorem ipsum dolor",
+        "lang": "AZ"
+    }
+},
+{
+    "model": "Main.projecttext",
+    "pk": 1,
+    "fields": {
+        "title": "Project (EN)",
+        "subtitle": "Lorem ipsum dolor",
+        "lang": "EN"
+    }
+},
+{
+    "model": "Main.projecttext",
+    "pk": 2,
+    "fields": {
+        "title": "Project (RU)",
+        "subtitle": "Lorem ipsum dolor",
+        "lang": "RU"
+    }
+},
+{
+    "model": "Main.projecttext",
+    "pk": 3,
+    "fields": {
+        "title": "Project (TR)",
+        "subtitle": "Lorem ipsum dolor",
+        "lang": "TR"
+    }
+},
+{
+    "model": "Main.projecttext",
+    "pk": 4,
+    "fields": {
+        "title": "Project (AZ)",
+        "subtitle": "Lorem ipsum dolor",
+        "lang": "AZ"
+    }
+},
+{
+    "model": "Main.producttext",
+    "pk": 1,
+    "fields": {
+        "title": "Products (EN)",
+        "subtitle": "Lorem ipsum dolor",
+        "lang": "EN"
+    }
+},
+{
+    "model": "Main.producttext",
+    "pk": 2,
+    "fields": {
+        "title": "Products (AZ)",
+        "subtitle": "Lorem ipsum dolor",
+        "lang": "AZ"
+    }
+},
+{
+    "model": "Main.producttext",
+    "pk": 3,
+    "fields": {
+        "title": "Products (TR)",
+        "subtitle": "Lorem ipsum dolor",
+        "lang": "TR"
+    }
+},
+{
+    "model": "Main.producttext",
+    "pk": 4,
+    "fields": {
+        "title": "Products (RU)",
+        "subtitle": "Lorem ipsum dolor",
+        "lang": "RU"
+    }
+},
+{
+    "model": "Main.contacttext",
+    "pk": 1,
+    "fields": {
+        "title": "Contact Us (EN)",
+        "subtitle": "Lorem ipsum dolor",
+        "name_field": "Name",
+        "email_field": "E-mail",
+        "message_field": "Message",
+        "lang": "EN"
+    }
+},
+{
+    "model": "Main.contacttext",
+    "pk": 2,
+    "fields": {
+        "title": "Contact Us (AZ)",
+        "subtitle": "Lorem ipsum dolor",
+        "name_field": "Name",
+        "email_field": "E-mail",
+        "message_field": "Message",
+        "lang": "AZ"
+    }
+},
+{
+    "model": "Main.contacttext",
+    "pk": 3,
+    "fields": {
+        "title": "Contact Us (RU)",
+        "subtitle": "Lorem ipsum dolor",
+        "name_field": "Name",
+        "email_field": "E-mail",
+        "message_field": "Message",
+        "lang": "RU"
+    }
+},
+{
+    "model": "Main.contacttext",
+    "pk": 4,
+    "fields": {
+        "title": "Contact Us (TR)",
+        "subtitle": "Lorem ipsum dolor",
+        "name_field": "Name",
+        "email_field": "E-mail",
+        "message_field": "Message",
+        "lang": "TR"
+    }
+},
+{
+    "model": "Main.footertext",
+    "pk": 1,
+    "fields": {
+        "title": "Bentstone (EN)",
+        "copyright": "All Rights Reserved © benstone.com",
+        "description": "Benstone description",
+        "lang": "EN"
+    }
+},
+{
+    "model": "Main.footertext",
+    "pk": 2,
+    "fields": {
+        "title": "Bentstone (AZ)",
+        "copyright": "All Rights Reserved © benstone.com",
+        "description": "Benstone description",
+        "lang": "AZ"
+    }
+},
+{
+    "model": "Main.footertext",
+    "pk": 3,
+    "fields": {
+        "title": "Bentstone (RU)",
+        "copyright": "All Rights Reserved © benstone.com",
+        "description": "Benstone description",
+        "lang": "RU"
+    }
+},
+{
+    "model": "Main.footertext",
+    "pk": 4,
+    "fields": {
+        "title": "Bentstone (TR)",
+        "copyright": "All Rights Reserved © benstone.com",
+        "description": "Benstone description",
+        "lang": "TR"
+    }
+},
+{
+    "model": "Main.product",
+    "pk": 1,
+    "fields": {
+        "name": "Test Product 1 (EN)",
+        "category": "Lorem ipsum",
+        "description": "Test Product 1 Description",
+        "price": "50€",
+        "name_az": "Test Product 1 (AZ)",
+        "category_az": "Lorem ipsum",
+        "description_az": "Test Product 1 Description",
+        "price_az": "50€",
+        "name_ru": "Test Product 1 (RU)",
+        "category_ru": "Lorem ipsum",
+        "description_ru": "Test Product 1 Description",
+        "price_ru": "50€",
+        "name_tr": "Test Product 1 (TR)",
+        "category_tr": "Lorem ipsum",
+        "description_tr": "Test Product 1 Description",
+        "price_tr": "50€",
+        "image": "products/graphic_product_tangible.png"
+    }
+},
+{
+    "model": "Main.product",
+    "pk": 2,
+    "fields": {
+        "name": "Test Product 1 (EN)",
+        "category": "Lorem ipsum",
+        "description": "Test Product 1 Description",
+        "price": "50€",
+        "name_az": "Test Product 1 (AZ)",
+        "category_az": "Lorem ipsum",
+        "description_az": "Test Product 1 Description",
+        "price_az": "50€",
+        "name_ru": "Test Product 1 (RU)",
+        "category_ru": "Lorem ipsum",
+        "description_ru": "Test Product 1 Description",
+        "price_ru": "50€",
+        "name_tr": "Test Product 1 (TR)",
+        "category_tr": "Lorem ipsum",
+        "description_tr": "Test Product 1 Description",
+        "price_tr": "50€",
+        "image": "products/graphic_product_tangible.png"
+    }
+},
+{
+    "model": "Main.product",
+    "pk": 3,
+    "fields": {
+        "name": "Test Product 1 (EN)",
+        "category": "Lorem ipsum",
+        "description": "Test Product 1 Description",
+        "price": "50€",
+        "name_az": "Test Product 1 (AZ)",
+        "category_az": "Lorem ipsum",
+        "description_az": "Test Product 1 Description",
+        "price_az": "50€",
+        "name_ru": "Test Product 1 (RU)",
+        "category_ru": "Lorem ipsum",
+        "description_ru": "Test Product 1 Description",
+        "price_ru": "50€",
+        "name_tr": "Test Product 1 (TR)",
+        "category_tr": "Lorem ipsum",
+        "description_tr": "Test Product 1 Description",
+        "price_tr": "50€",
+        "image": "products/graphic_product_tangible.png"
+    }
+}
+]

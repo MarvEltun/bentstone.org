@@ -1,0 +1,87 @@
+@media only screen and (max-width: 1175px) {
+	.products-list {
+		grid-template-columns: 1fr 1fr !important;
+	}
+
+	.product {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 1080px) {
+	.products-list, .projects-list {
+		grid-template-columns: 1fr !important;
+	}
+
+	.project {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.projects-wrapper, .products-wrapper {
+		max-width: 500px !important;
+	}
+}
+
+@media only screen and (max-width: 675px) {
+	.lang-container {
+		display: none !important;
+	}
+
+	.menu-lg {
+		display: flex !important;
+		position: relative !important;
+	}
+
+	.title {
+		position: unset !important;
+		left: unset !important;
+		transform: unset !important;
+	}
+
+	#hero-btn {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 470px) {
+	.projects-list, .products-list {
+		display: unset !important;
+	}
+
+	.project, .product {
+		margin-bottom: 15px;
+	}
+
+	.footer .container .grid {
+		display: unset !important;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-left: unset !important;
+		margin-right: unset !important;
+		max-width: 100% !important;
+	}
+
+	.footer .container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer * {
+		text-align: center !important;
+	}
+
+	.footer .logo {
+		display: unset !important;
+	}
+}
+
+@media only screen and (max-width: 395px) {
+	.projects-wrapper .projects-list .project img {
+		max-width: 300px !important;
+	}
+}

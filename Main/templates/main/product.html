@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta Tags -->
+	<title>Bentstone</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Imports -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+	<!-- Static -->
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'css/responsive.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/utils.css' %}">
+</head>
+<body>
+	<!-- Nav -->
+	<div class="sticky-nav">
+		<div class="nav">
+			<div class="menu" id="menu-btn">
+				<div class="burger">
+					<div class="line-1"></div>
+					<div class="line-2"></div>
+				</div>
+				<div class="text-wrapper">
+					<div class="menu-text">{{ menu.open_button }}</div>
+					<div class="close-text">{{ menu.close_button }}</div>
+				</div>
+			</div>
+			<div class="title">Bentstone</div>
+			<div class="lang-container">
+				{% if lang == "EN" %}
+					<button id="lang-btn" class="ArkButton">English</button>
+					<a href="{% url 'home-az' %}" class="a-lang">
+						<button id="lang-az" class="ArkButton hide-lang">Azerbaijan</button>
+					</a>
+					<a href="{% url 'home-ru' %}" class="a-lang">
+						<button id="lang-ru" class="ArkButton hide-lang">Russian</button>
+					</a>
+					<a href="{% url 'home-tr' %}" class="a-lang">
+						<button id="lang-tr" class="ArkButton hide-lang">Turkish</button>
+					</a>
+					
+				{% elif lang == "AZ" %}
+					<button id="lang-btn" class="ArkButton">Azerbaijan</button>
+					<a href="{% url 'home' %}" class="a-lang">
+						<button id="lang-en" class="ArkButton hide-lang">English</button>
+					</a>
+					<a href="{% url 'home-ru' %}" class="a-lang">
+						<button id="lang-ru" class="ArkButton hide-lang">Russian</button>
+					</a>
+					<a href="{% url 'home-tr' %}" class="a-lang">
+						<button id="lang-tr" class="ArkButton hide-lang">Turkish</button>
+					</a>
+				
+				{% elif lang == "RU" %}
+					<button id="lang-btn" class="ArkButton">Russian</button>
+					<a href="{% url 'home' %}" class="a-lang">
+						<button id="lang-en" class="ArkButton hide-lang">English</button>
+					</a>
+					<a href="{% url 'home-az' %}" class="a-lang">
+						<button id="lang-az" class="ArkButton hide-lang">Azerbaijan</button>
+					</a>
+					<a href="{% url 'home-tr' %}" class="a-lang">
+						<button id="lang-tr" class="ArkButton hide-lang">Turkish</button>
+					</a>
+				
+				{% elif lang == "TR" %}
+					<button id="lang-btn" class="ArkButton">Turkish</button>
+					<a href="{% url 'home' %}" class="a-lang">
+						<button id="lang-en" class="ArkButton hide-lang">English</button>
+					</a>
+					<a href="{% url 'home-az' %}" class="a-lang">
+						<button id="lang-az" class="ArkButton hide-lang">Azerbaijan</button>
+					</a>
+					<a href="{% url 'home-ru' %}" class="a-lang">
+						<button id="lang-ru" class="ArkButton hide-lang">Russian</button>
+					</a>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+	<!-- End Nav -->
+	<!-- Menu -->
+	<div class="menu-overlay">
+		<div class="menu-wrapper">
+			<div class="container">
+				<div class="menu-content">
+					{% if lang == "EN" %}
+						<a href="{% url 'home' %}">{{ menu.home_button }}</a>
+					{% elif lang == "AZ" %}
+						<a href="{% url 'home-az' %}">{{ menu.home_button }}</a>
+					{% elif lang == "RU" %}
+						<a href="{% url 'home-ru' %}">{{ menu.home_button }}</a>
+					{% elif lang == "TR" %}
+						<a href="{% url 'home-tr' %}">{{ menu.home_button }}</a>
+					{% endif %}
+
+					{% if lang == "EN" %}
+						<a href="{% url 'home' %}#products">{{ menu.products_button }}</a>
+					{% elif lang == "AZ" %}
+						<a href="{% url 'home-az' %}#products">{{ menu.products_button }}</a>
+					{% elif lang == "RU" %}
+						<a href="{% url 'home-ru' %}#products">{{ menu.products_button }}</a>
+					{% elif lang == "TR" %}
+						<a href="{% url 'home-tr' %}#products">{{ menu.products_button }}</a>
+					{% endif %}
+
+					{% if lang == "EN" %}
+						<a href="{% url 'home' %}#projects">{{ menu.projects_button }}</a>
+					{% elif lang == "AZ" %}
+						<a href="{% url 'home-az' %}#projects">{{ menu.projects_button }}</a>
+					{% elif lang == "RU" %}
+						<a href="{% url 'home-ru' %}#projects">{{ menu.projects_button }}</a>
+					{% elif lang == "TR" %}
+						<a href="{% url 'home-tr' %}#projects">{{ menu.projects_button }}</a>
+					{% endif %}
+
+					{% if lang == "EN" %}
+						<a href="{% url 'home' %}#about">{{ menu.about_us_button }}</a>
+					{% elif lang == "AZ" %}
+						<a href="{% url 'home-az' %}#about">{{ menu.about_us_button }}</a>
+					{% elif lang == "RU" %}
+						<a href="{% url 'home-ru' %}#about">{{ menu.about_us_button }}</a>
+					{% elif lang == "TR" %}
+						<a href="{% url 'home-tr' %}#about">{{ menu.about_us_button }}</a>
+					{% endif %}
+
+					{% if lang == "EN" %}
+						<a href="{% url 'home' %}#contact">{{ menu.contact_button }}</a>
+					{% elif lang == "AZ" %}
+						<a href="{% url 'home-az' %}#contact">{{ menu.contact_button }}</a>
+					{% elif lang == "RU" %}
+						<a href="{% url 'home-ru' %}#contact">{{ menu.contact_button }}</a>
+					{% elif lang == "TR" %}
+						<a href="{% url 'home-tr' %}#contact">{{ menu.contact_button }}</a>
+					{% endif %}
+					<div class="lang-container menu-lg">
+						{% if lang == "EN" %}
+							<button id="lang-btn-sm" class="ArkButton">English</button>
+							<a href="{% url 'home-az' %}">
+								<button id="lang-az-sm" class="ArkButton hide-lang">Azerbaijan</button>
+							</a>
+							<a href="{% url 'home-ru' %}">
+								<button id="lang-ru-sm" class="ArkButton hide-lang">Russian</button>
+							</a>
+							<a href="{% url 'home-tr' %}">
+								<button id="lang-tr-sm" class="ArkButton hide-lang">Turkish</button>
+							</a>
+							
+						{% elif lang == "AZ" %}
+							<button id="lang-btn-sm" class="ArkButton">Azerbaijan</button>
+							<a href="{% url 'home' %}">
+								<button id="lang-en-sm" class="ArkButton hide-lang">English</button>
+							</a>
+							<a href="{% url 'home-ru' %}">
+								<button id="lang-ru-sm" class="ArkButton hide-lang">Russian</button>
+							</a>
+							<a href="{% url 'home-tr' %}">
+								<button id="lang-tr-sm" class="ArkButton hide-lang">Turkish</button>
+							</a>
+						
+						{% elif lang == "RU" %}
+							<button id="lang-btn-sm" class="ArkButton">Russian</button>
+							<a href="{% url 'home' %}">
+								<button id="lang-en-sm" class="ArkButton hide-lang">English</button>
+							</a>
+							<a href="{% url 'home-az' %}">
+								<button id="lang-az-sm" class="ArkButton hide-lang">Azerbaijan</button>
+							</a>
+							<a href="{% url 'home-tr' %}">
+								<button id="lang-tr-sm" class="ArkButton hide-lang">Turkish</button>
+							</a>
+						
+						{% elif lang == "TR" %}
+							<button id="lang-btn-sm" class="ArkButton">Turkish</button>
+							<a href="{% url 'home' %}">
+								<button id="lang-en-sm" class="ArkButton hide-lang">English</button>
+							</a>
+							<a href="{% url 'home-az' %}">
+								<button id="lang-az-sm" class="ArkButton hide-lang">Azerbaijan</button>
+							</a>
+							<a href="{% url 'home-ru' %}">
+								<button id="lang-ru-sm" class="ArkButton hide-lang">Russian</button>
+							</a>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Menu -->
+	
+	<!-- Hero -->
+	<div class="hero">
+		<div class="container">
+			<div class="hero-text">
+				<h4 class="sub-text">{{ hero.text_1 }}</h4>
+				<div class="head-text">
+					<div class="content-wrap">
+						<h1 class="">{{ hero.text_2 }}</h1>
+					</div>
+				</div>
+				<div class="mt-30">
+					<p class="catch-phrase">{{ hero.text_3 }}</p>
+				</div>
+			</div>
+		</div>
+			<div class="mouse-container">
+			<div class="mouse">
+				<div class="mouse-movement"></div>
+			</div>
+		</div>
+	</div>
+	<!-- End Hero -->
+
+	<!-- Project -->
+	<div class="about section mt-60">
+		<div class="header mb-50">
+			{% if lang == "EN" %}
+				<h4 class="sub">{{ product.name }}</h4>
+			{% elif lang == "AZ" %}
+				<h4 class="sub">{{ product.name_az }}</h4>
+			{% elif lang == "RU" %}
+				<h4 class="sub">{{ product.name_ru }}</h4>
+			{% elif lang == "TR" %}
+				<h4 class="sub">{{ product.name_tr }}</h4>
+			{% endif %}
+		</div>
+
+		<div class="content align-center">
+			<img class="project-image" src="{{ product.image.url }}">
+			{% if lang == "EN" %}
+				<p class="mt-20">{{ product.description }}</p>
+			{% elif lang == "AZ" %}
+				<p class="mt-20">{{ product.description_az }}</p>
+			{% elif lang == "RU" %}
+				<p class="mt-20">{{ product.description_ru }}</p>
+			{% elif lang == "TR" %}
+				<p class="mt-20">{{ product.description_tr }}</p>
+			{% endif %}
+		</div>
+	</div>
+	<!-- Project -->
+
+	<!-- Contact -->
+	<div class="contact">
+		<div class="container">
+			<div class="header">
+				<h4 class="sub">{{ contactTxt.title }}</h4>
+				<div class="main">
+					{{ contactTxt.subtitle }}
+				</div>
+			</div>
+			<div class="mt-60">
+				<div class="form-container">
+					<form method="POST" action="{% url 'email' %}">
+						{% csrf_token %}
+						<label>{{ contactTxt.name_field }}</label>
+						<input type="text" class="input-field" name="name">
+
+						<label>{{ contactTxt.email_field }}</label>
+						<input type="email" class="input-field" name="email">
+
+						<label>{{ contactTxt.message_field }}</label>
+						<textarea name="message" class="text-field"></textarea>
+
+						<div class="mt-15">
+							<input type="submit" class="ArkButton" value="Send">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Contact -->
+
+	<!-- Partners -->
+	<div class="partners section">
+		<div class="header mb-50">
+			<h4 class="sub">{{ partner_txt.title }}</h4>
+			<div class="main">
+				{{ partner_txt.subtitle }}
+			</div>
+		</div>
+		<div class="carousel-partners">
+			{% for partner in partners %}
+			<div class="slide">
+				<img src="{{ partner.logo.url }}">
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	<!-- End Partners -->
+
+	<!--- Footer -->
+	<div class="footer section">
+		<div class="container">
+			<div class="grid">
+				<div class="info">
+					<div class="logo">
+						{{ footerTxt.title }}
+					</div>
+					<p class="mt-30">{{ footerTxt.description }}</p>
+				</div>
+				<div class="contact">
+					<div class="mt-30 align-right">
+						<p>{{ contact.email }}</p>
+						<p>{{ contact.phone }}</p>
+					</div>
+				</div>
+				<div class="copyright">
+					<p>{{ footerTxt.copyright }}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer -->
+
+	<!-- Scripts -->
+	<script src="{% static 'js/menu.js' %}"></script>
+	<script src="{% static 'js/lang.js' %}"></script>
+	<script src="{% static 'js/sliders.js' %}"></script>
+</body>
+</html>
+
+<!--
+	4 language choice, Home, Projects, Products, Contact, About us pages
+-->

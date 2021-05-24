@@ -1,0 +1,157 @@
+.mt-10 {margin-top: 10px}
+.mt-20 {margin-top: 20px}
+.mt-30 {margin-top: 30px}
+.mt-40 {margin-top: 40px}
+.mt-50 {margin-top: 50px}
+.mt-60 {margin-top: 60px}
+.mt-70 {margin-top: 70px}
+.mt-80 {margin-top: 80px}
+.mt-90 {margin-top: 90px}
+.mt-100 {margin-top: 100px}
+
+.mb-10 {margin-bottom: 10px}
+.mb-20 {margin-bottom: 20px}
+.mb-30 {margin-bottom: 30px}
+.mb-40 {margin-bottom: 40px}
+.mb-50 {margin-bottom: 50px}
+.mb-60 {margin-bottom: 60px}
+.mb-70 {margin-bottom: 70px}
+.mb-80 {margin-bottom: 80px}
+.mb-90 {margin-bottom: 90px}
+.mb-100 {margin-bottom: 100px}
+
+.cursor-pointer {cursor: pointer}
+
+.section {
+	max-width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	z-index: 900;
+	position: relative;
+}
+
+:root {
+	--light: #fff;
+	--brand: #362bbb;
+	--sub: #ececf3;
+	--light2: #2e313f;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+p, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+body::-webkit-scrollbar-thumb {
+	background-color: var(--brand);
+}
+
+body::-webkit-scrollbar-track {
+	background-color: #444;
+}
+
+body::-webkit-scrollbar {
+	width: 9px;
+}
+
+.ArkButton {
+	cursor: pointer;
+	background: 0 0;
+	height: 3rem;
+	border-radius: 3px;
+	padding: .9rem 1.5rem;
+	font-weight: 500;
+	border-style: solid;
+	transition: color .3s, background-color .3s;
+	overflow: hidden;
+	position: relative;
+	border-width: 0;
+	outline: 0;
+	white-space: nowrap;
+}
+
+.ArkButton {
+	display: inline-block;
+	background: 0 0;
+	border-color: transparent;
+	color: #fff;
+	padding: 0 1rem;
+	font-size: 1rem;
+	font-weight: 500;
+	background: var(--brand);
+	background-image: linear-gradient(135deg, #fff 50%, transparent 51%);
+	background-size: 100px 100px;
+	background-position: -50px -50px;
+	background-repeat: no-repeat;
+	transition: all ease 0.3s;
+	box-shadow: 0 4px 4px rgba(0,0,0,.4);
+}
+
+.ArkButton {
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+.ArkButton:hover {
+	background-size: 200% 200%;
+	background-position: 0px 0px;
+	color: var(--brand);
+}
+
+.flex-center {
+	display: flex;
+	align-self: center;
+	justify-content: center;
+}
+
+.highlight {
+	color: var(--brand);
+}
+
+.grid-2 {
+	display: grid;
+	align-items: center;
+	grid-auto-columns: 1fr;
+	grid-column-gap: 100px;
+	grid-row-gap: 16px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+.bx-wrapper {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	border: none;
+	box-shadow: none;
+}
+
+.align-center {
+	text-align: center;
+}
