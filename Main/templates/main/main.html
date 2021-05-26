@@ -34,51 +34,51 @@
 			<div class="title">Bentstone</div>
 			<div class="lang-container">
 				{% if lang == "EN" %}
-					<button id="lang-btn" class="ArkButton">English</button>
+					<button id="lang-btn" class="ArkButton">EN</button>
 					<a href="{% url 'home-az' %}" class="a-lang">
-						<button id="lang-az" class="ArkButton hide-lang">Aze</button>
+						<button id="lang-az" class="ArkButton hide-lang">AZ</button>
 					</a>
 					<a href="{% url 'home-ru' %}" class="a-lang">
-						<button id="lang-ru" class="ArkButton hide-lang">Russian</button>
+						<button id="lang-ru" class="ArkButton hide-lang">RU</button>
 					</a>
 					<a href="{% url 'home-tr' %}" class="a-lang">
-						<button id="lang-tr" class="ArkButton hide-lang">Turkish</button>
+						<button id="lang-tr" class="ArkButton hide-lang">TR</button>
 					</a>
 					
 				{% elif lang == "AZ" %}
 					<button id="lang-btn" class="ArkButton">Azerbaijan</button>
 					<a href="{% url 'home' %}" class="a-lang">
-						<button id="lang-en" class="ArkButton hide-lang">English</button>
+						<button id="lang-en" class="ArkButton hide-lang">EN</button>
 					</a>
 					<a href="{% url 'home-ru' %}" class="a-lang">
-						<button id="lang-ru" class="ArkButton hide-lang">Russian</button>
+						<button id="lang-ru" class="ArkButton hide-lang">RU</button>
 					</a>
 					<a href="{% url 'home-tr' %}" class="a-lang">
-						<button id="lang-tr" class="ArkButton hide-lang">Turkish</button>
+						<button id="lang-tr" class="ArkButton hide-lang">TR</button>
 					</a>
 				
 				{% elif lang == "RU" %}
 					<button id="lang-btn" class="ArkButton">Russian</button>
 					<a href="{% url 'home' %}" class="a-lang">
-						<button id="lang-en" class="ArkButton hide-lang">English</button>
+						<button id="lang-en" class="ArkButton hide-lang">EN</button>
 					</a>
 					<a href="{% url 'home-az' %}" class="a-lang">
-						<button id="lang-az" class="ArkButton hide-lang">Azerbaijan</button>
+						<button id="lang-az" class="ArkButton hide-lang">AZ</button>
 					</a>
 					<a href="{% url 'home-tr' %}" class="a-lang">
-						<button id="lang-tr" class="ArkButton hide-lang">Turkish</button>
+						<button id="lang-tr" class="ArkButton hide-lang">TR</button>
 					</a>
 				
 				{% elif lang == "TR" %}
 					<button id="lang-btn" class="ArkButton">Turkish</button>
 					<a href="{% url 'home' %}" class="a-lang">
-						<button id="lang-en" class="ArkButton hide-lang">English</button>
+						<button id="lang-en" class="ArkButton hide-lang">EN</button>
 					</a>
 					<a href="{% url 'home-az' %}" class="a-lang">
-						<button id="lang-az" class="ArkButton hide-lang">Azerbaijan</button>
+						<button id="lang-az" class="ArkButton hide-lang">AZ</button>
 					</a>
 					<a href="{% url 'home-ru' %}" class="a-lang">
-						<button id="lang-ru" class="ArkButton hide-lang">Russian</button>
+						<button id="lang-ru" class="ArkButton hide-lang">RU</button>
 					</a>
 				{% endif %}
 			</div>
